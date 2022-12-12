@@ -5,35 +5,35 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Programming for Everybody (Getting Started with Python)",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/BAEKMZNRTBMQ",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
-  },
-  {
-    title: "Machine Learning",
+    title: "Python Data Structures",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/38BPD73Q9GNG",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "What is Data Science?",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/UFQU3XZ63LRP",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Tools for Data Science",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/X65YVZFAZKAY",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Foundations: Data, Data, Everywhere",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/KVMT95AVESSR",
   },
+  {
+    title: "Ask Questions to Make Data-Driven Decisions",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/8ZQYFF7NC65T",
+  },/*
   {
     title: "Bootstrap 4",
     cardImage: "assets/images/education-page/udemy.svg",
@@ -65,7 +65,7 @@ const moocscards = [
     cardImage: "assets/images/education-page/udacity.svg",
     moocLink:
       "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  },*/
 ];
 
 const experience = [
@@ -138,19 +138,19 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
-    description: "Earned May 20, 2020",
+    title: "Microsoft Certified: Azure Data Fundamentals",
+    image: "assets/images/education-page/Microsoft badge.png",
+    description: "Earned June 04, 2022",
   },
   {
-    title: "VM Migration",
-    image: "assets/images/education-page/badge2.png",
-    description: "Earned June 20, 2020",
+    title: "Data Science Orientation",
+    image: "assets/images/education-page/IBM badge1.png",
+    description: "Earned August 09, 2020",
   },
   {
-    title: "G Suite Essentials",
-    image: "assets/images/education-page/badge3.png",
-    description: "Earned July 20, 2020",
+    title: "Tools for Data Science",
+    image: "assets/images/education-page/IBM badge2.png",
+    description: "Earned August 09, 2020",
   },
 ];
 
