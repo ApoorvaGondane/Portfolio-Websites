@@ -5,24 +5,24 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
+    title: "Data Analyst Intern",
     cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    place: "VDP SOLUTION",
+    time: "(July, 2020 - August 2020)",
+    desp: "<li>Performed data cleaning and preprocessing to find insights.</li> <li>Built a dashboard in Power BI to identify trends in ingredient usage in a food product.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Data Science & Business Analytics Intern",
+    cardImage: "assets/images/experience-page/Sparks_Foundation.jpeg",
+    place: "The Sparks Foundation",
+    time: "(July 2021 - August 2021)",
+    desp: "<li>Developed a K-means model to predict the optimum number of clusters and for representing it visually.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
+    title: "Intern",
+    cardImage: "assets/images/experience-page/FRTlogo.png",
+    place: "Future Ready Talent",
+    time: "(October 2022 - December 2022)",
     desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
   },
 ];
@@ -62,11 +62,11 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Computer Society of India, Member",
+    cardImage: "assets/images/experience-page/CSI.jpeg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-  },
+      "Responsible for organising events for society.",
+  },/*
   {
     title: "StudentCode-in 2020",
     cardImage: "assets/images/experience-page/2.jpg",
@@ -84,7 +84,7 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/4.jpg",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+  },*/
 ];
 
 const showCards = () => {
@@ -107,7 +107,7 @@ const showCards = () => {
 document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
-
+/*
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
@@ -238,3 +238,4 @@ const showCards3 = () => {
   hackathonsection.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
+*/
