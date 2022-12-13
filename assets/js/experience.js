@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Data Analyst Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
+    cardImage: "assets/images/experience-page/DA.png",
     place: "VDP SOLUTION",
     time: "(July, 2020 - August 2020)",
     desp: "<li>Performed data cleaning and preprocessing to find insights.</li> <li>Built a dashboard in Power BI to identify trends in ingredient usage in a food product.</li>",
@@ -20,10 +20,10 @@ const exp = [
   },
   {
     title: "Intern",
-    cardImage: "assets/images/experience-page/FRTlogo.png",
+    cardImage: "assets/images/experience-page/FRT.jpeg",
     place: "Future Ready Talent",
     time: "(October 2022 - December 2022)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp: "<li>Extracted data from Spotify API using spotipy library and performed analysis on the same.</li><li>Designed a Power BI Dashboard detailing the topmost songs on Spotify from year 2019 to 2022 for India region.</li>",
   },
 ];
 
