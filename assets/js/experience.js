@@ -65,7 +65,7 @@ const volunteershipcards = [
     title: "Computer Society of India, Member",
     cardImage: "assets/images/experience-page/CSI.jpeg",
     description:
-      "Responsible for organising events for society.",
+      "Responsible for organising events and seminars.",
   },/*
   {
     title: "StudentCode-in 2020",
